@@ -1,0 +1,122 @@
+*{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+}
+nav{
+  font-family: 'Montserrat', sans-serif;
+  
+}
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+/* font-family: 'Roboto', sans-serif; */
+header nav{
+  padding-top: 17px;
+  background-color: #fff;
+}
+header .asd2{
+  padding-bottom: 17px;
+}
+header nav .logo{
+  padding-left: 128px;
+}
+header nav .ulli a{
+  text-decoration: none;
+  padding-right: 20px;
+  font-size: 12px;
+  line-height: 13px;
+  color: #000;
+}
+header nav .ulli a:hover{
+  color: green;
+}
+header .head2{
+  background: #007d2f;
+}
+header .asd{
+  font-family: 'Roboto', sans-serif;
+  padding-top: 110px;
+  padding-bottom: 35px;
+  font-size: 30px;
+  line-height: 30px;
+  text-align: center;
+}
+header .asd1{
+font-family: 'Roboto', sans-serif;
+font-size: 17px;
+text-align: center;
+font-weight: 500;
+padding-bottom: 97px;
+}
+/* -----------------------------------------section------------------------------------------------------ */
+section{
+  text-align: center;
+}
+section img{
+  width: 306px;
+  height: 280px;
+}
+.section_img{
+  position: relative;
+}
+.section_img img{
+  position: relative;
+}
+section .section_hover{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  transition: 1s;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(69, 124, 89, .5);
+  color: #fff;
+}
+section .section_hover:hover{
+  transform: rotatex(90deg);
+  } 
+
+
+  /* --------------------------------------------------------- footer ----------------------------------------------------- */
+  footer{
+    padding-top: 98px;
+    background: #000;
+  }
+  footer .text1 h2{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 17px;
+   font-weight: 900;
+   color: #fff;
+  }
+  footer .text1 p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    color: #fff;
+  }
+ footer .text2{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
+ }
+.text3{
+  display: flex;
+}
+.text3 a{
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  }
+  footer .asd{
+    padding-bottom: 98px;
+  }
+
+
+
+
+
+
+
+
