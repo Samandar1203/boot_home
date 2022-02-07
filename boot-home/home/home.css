@@ -48,14 +48,15 @@ font-size: 17px;
 text-align: center;
 font-weight: 500;
 padding-bottom: 97px;
+color: white;
 }
 /* -----------------------------------------section------------------------------------------------------ */
 section{
-  text-align: center;
+  /* text-align: center; */
 }
 section img{
-  width: 306px;
-  height: 280px;
+  /* width: 306px;
+  height: 280px; */
 }
 .section_img{
   position: relative;
@@ -65,18 +66,19 @@ section img{
 }
 section .section_hover{
   position: absolute;
-  width: 100%;
+  width: 342px;
   height: 100%;
   top: 0;
-  transition: 1s;
   display: flex;
+  transition: 1s;
   justify-content: center;
   align-items: center;
-  background: rgba(69, 124, 89, .5);
+  
   color: #fff;
 }
 section .section_hover:hover{
-  transform: rotatex(90deg);
+  transform: scaleX(360deg);
+  background: rgba(69, 124, 89, .5);
   } 
 
 
