@@ -114,8 +114,88 @@ section .section_hover:hover{
   footer .asd{
     padding-bottom: 98px;
   }
-
-
+/* ------------------------------ start media */
+@media (max-width:575px) {
+  header nav {
+    padding-top: 10px;
+}
+header .asd2 {
+  padding-bottom: 9px;
+}
+  header nav .logo {
+    padding-left: 6px;
+}
+.btn-primary {
+  font-size: 10px;
+  width: 63px;
+  height: 29px;
+  color: black;
+  background: white;
+  border: solid green;
+  border-radius: 16px;
+  padding-left: 11px;
+}
+.btn-primary:hover{
+  background-color: #007d2f;
+  border: solid #007d2f;
+  box-shadow: #007d2f;
+}
+header .asd {
+  padding-top: 55px;
+  padding-bottom: 17px;
+  font-size: 15px;
+}
+header .asd1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 45px;
+  color: white;
+}
+.section_img{
+  display: flex;
+  justify-content: center;
+}
+.section_img img{
+  width: 80px;
+  height: 75px;
+}
+section .section_hover{
+  display: none;
+}
+header nav .logo img{
+  width: 31px;
+  height: 32px;
+}
+footer {
+  padding-top: 11px;
+  background: #000;
+}
+footer .text1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+}footer .text1 p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 9px;
+  font-size: 7px;
+  color: #fff;
+}
+.text3 a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 7px;
+}
+footer ul{
+  padding-left: 7px;
+}
+footer .asd {
+  padding-bottom: 0px;
+}
+}
 
 
 
