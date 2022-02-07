@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+
+header nav{
+    padding-top: 17px;
+    background-color: #fff;
+  }
+  header .asd2{
+    margin-bottom: 17px;
+  }
+  header nav .logo{
+    padding-left: 128px;
+  }
+  header nav .ulli a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000;
+  }
+  header nav .ulli a:hover{
+    color: green;
+  }
+  /* header .{ */
+      /* display: flex;
+      justify-content: center;
+  } */
+  .carousel-inner{
+      background: #f6f6f6;
+  }
+  .carousel-item h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 38px;
+    font-weight: 600;
+    padding-top: 105px;
+    padding-bottom: 30px;
+  }
+  .carousel-item p{
+      font-family: 'Nunito Sans', sans-serif;
+      padding-right: 120px;
+      color: #787878;
+  }
+  .carousel-item p span{
+      font-weight: bold;
+      color: #171717;
+  }
+  .anim{
+      height: 100px;
+      background: #007d2f;
+  }
+  .anim span{
+      color: #000;
+  }
+  .carousel-control-prev{
+      padding-top: 650px;
+  }
+  .carousel-control-next{
+      padding-top: 650px;
+  }
+
+  /* --------------------------footer */
+  footer{
+    padding-top: 98px;
+    background: #000;
+  }
+  footer .text1 h2{
+    font-family: 'Montserrat', sans-serif;
+   font-size: 17px;
+   font-weight: 900;
+   color: #fff;
+  }
+  footer .text1 p{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 15px;
+    color: #fff;
+  }
+  footer .text2{
+  font-family: 'Nunito Sans', sans-serif;
+  color: #fff;
+  }
+  .text3{
+  display: flex;
+  }
+  .text3 a{
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  }
+  footer .asd{
+    padding-bottom: 98px;
+  }
+  
