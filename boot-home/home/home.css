@@ -31,6 +31,9 @@ header nav .ulli a{
 header nav .ulli a:hover{
   color: green;
 }
+.nav_group{
+  display: none;
+}
 header .head2{
   background: #007d2f;
 }
@@ -48,14 +51,15 @@ font-size: 17px;
 text-align: center;
 font-weight: 500;
 padding-bottom: 97px;
+color: white;
 }
 /* -----------------------------------------section------------------------------------------------------ */
 section{
-  text-align: center;
+  /* text-align: center; */
 }
 section img{
-  width: 306px;
-  height: 280px;
+  /* width: 306px;
+  height: 280px; */
 }
 .section_img{
   position: relative;
@@ -65,18 +69,19 @@ section img{
 }
 section .section_hover{
   position: absolute;
-  width: 100%;
+  width: 342px;
   height: 100%;
   top: 0;
-  transition: 1s;
   display: flex;
+  transition: 1s;
   justify-content: center;
   align-items: center;
-  background: rgba(69, 124, 89, .5);
+  
   color: #fff;
 }
 section .section_hover:hover{
-  transform: rotatex(90deg);
+  transform: scaleX(360deg);
+  background: rgba(69, 124, 89, .5);
   } 
 
 
@@ -112,11 +117,105 @@ section .section_hover:hover{
   footer .asd{
     padding-bottom: 98px;
   }
+/* ------------------------------ start media */
 
 
 
 
-
-
-
-
+@media (max-width:575px) {
+  header nav {
+    padding-top: 10px;
+}
+header .asd2 {
+  padding-bottom: 9px;
+}
+  header nav .logo {
+    padding-left: 6px;
+}
+.nav_menu{
+  display: none;
+}
+.nav_group{
+  display: block;
+}
+.btn-primary {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background: white;
+  border: solid green;
+  border-radius: 16px;
+  padding-left: 11px;
+}
+.btn-primary:hover{
+  background-color: #007d2f;
+  border: solid #007d2f;
+  box-shadow: #007d2f;
+}
+header .asd {
+  padding-top: 55px;
+  padding-bottom: 17px;
+  font-size: 15px;
+}
+header .asd1 {
+  font-family: 'Roboto', sans-serif;
+  font-size: 10px;
+  text-align: center;
+  font-weight: 400;
+  padding-bottom: 45px;
+  color: white;
+}
+/* .section_1{
+  padding: 0;
+} */
+.system_img{
+  padding: 0;
+}
+.section_img{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+.section_img img{
+  width: 100%;
+  height: 100%;
+}
+section .section_hover{
+  width: 100%;
+  height: 100%;
+}
+header nav .logo img{
+  width: 31px;
+  height: 32px;
+}
+footer {
+  padding-top: 11px;
+  background: #000;
+}
+footer .text1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 15px;
+}footer .text1 p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 9px;
+  font-size: 7px;
+  color: #fff;
+}
+.text3 a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 7px;
+  padding-left: 3px;
+}
+footer ul{
+  padding-left: 7px;
+}
+footer .asd {
+  padding-bottom: 0px;
+}
+}

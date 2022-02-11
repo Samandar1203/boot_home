@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+/* font-family: 'Montserrat', sans-serif; */
+/* font-family: 'Nunito', sans-serif; */
+/* font-family: 'Nunito Sans', sans-serif; */
+header nav{
+    padding-top: 17px;
+    background-color: #fff;
+  }
+  header .asd2{
+    margin-bottom: 17px;
+  }
+  header nav .logo{
+    padding-left: 128px;
+  }
+  header nav .ulli a{
+    text-decoration: none;
+    padding-right: 20px;
+    font-size: 12px;
+    line-height: 13px;
+    color: #000;
+  }
+  header nav .ulli a:hover{
+    color: green;
+  }
+  .head2{
+    background-color: #f5f5f5;
+    padding-top: 100px;
+  }
+  .head2 .asd{
+    display: flex;
+    justify-content:space-between;
+  }
+
+ .head2 .div_text{
+    
+ }
+ .head2 .div_text h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 30px;
+    font-weight: 700;
+    color: #171717;
+ }
+ .head2 .div_text p{
+    font-family: 'Nunito', sans-serif;
+    font-size: 16px;
+    color: #858585;
+ }
+ .head2 .div_text p span{
+    font-weight: 700;
+    color: #171717;
+ }
+ .forms .name .first {
+   width: 280px;
+   margin-right: 30px;
+   border: solid white;
+   box-sizing: border-box;
+ }
+ .forms .name .second{
+   width: 322px;
+ }
+ .forms .titlebox .titl{
+   width: 635px;
+ }
+ .forms .comment .comm{
+   width: 635px;
+   height: 170px;
+   /* padding-bottom: 30px; */
+ }
+ .forms .comment textarea {
+   border: solid white;
+   margin-bottom: 30px;
+ }
+ .forms input{
+  border: solid white;
+ }
+ .forms input ::placeholder{
+   color: #787878;
+ }
+ button{
+   width: 160px;
+   height: 54px;
+   background-color: #007d2f;
+   color: white ;
+   font-family:'Montserrat', sans-serif ;
+   font-size: 12px;
+   border: solid #f5f5f5;
+   margin-bottom: 100px;
+ }
+ .karta{
+   margin-bottom: 100px;
+ }
+ footer{
+  padding-top: 98px;
+  background: #000;
+}
+footer .text1 h2{
+  font-family: 'Montserrat', sans-serif;
+ font-size: 17px;
+ font-weight: 900;
+ color: #fff;
+}
+footer .text1 p{
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 15px;
+  color: #fff;
+}
+footer .text2{
+font-family: 'Nunito Sans', sans-serif;
+color: #fff;
+}
+.text3{
+display: flex;
+}
+.text3 a{
+font-family: 'Nunito Sans', sans-serif;
+text-decoration: none;
+color: #fff;
+font-size: 14px;
+}
+footer .asd{
+  padding-bottom: 98px;
+}
