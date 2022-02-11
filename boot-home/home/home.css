@@ -31,6 +31,9 @@ header nav .ulli a{
 header nav .ulli a:hover{
   color: green;
 }
+.nav_group{
+  display: none;
+}
 header .head2{
   background: #007d2f;
 }
@@ -115,6 +118,10 @@ section .section_hover:hover{
     padding-bottom: 98px;
   }
 /* ------------------------------ start media */
+
+
+
+
 @media (max-width:575px) {
   header nav {
     padding-top: 10px;
@@ -125,10 +132,16 @@ header .asd2 {
   header nav .logo {
     padding-left: 6px;
 }
+.nav_menu{
+  display: none;
+}
+.nav_group{
+  display: block;
+}
 .btn-primary {
   font-size: 10px;
-  width: 63px;
-  height: 29px;
+  width: 100%;
+  height: 100%;
   color: black;
   background: white;
   border: solid green;
@@ -153,16 +166,24 @@ header .asd1 {
   padding-bottom: 45px;
   color: white;
 }
+/* .section_1{
+  padding: 0;
+} */
+.system_img{
+  padding: 0;
+}
 .section_img{
   display: flex;
   justify-content: center;
+  padding: 0;
 }
 .section_img img{
-  width: 80px;
-  height: 75px;
+  width: 100%;
+  height: 100%;
 }
 section .section_hover{
-  display: none;
+  width: 100%;
+  height: 100%;
 }
 header nav .logo img{
   width: 31px;
@@ -177,6 +198,7 @@ footer .text1 h2 {
   font-size: 9px;
   font-weight: 700;
   color: #fff;
+  margin-top: 15px;
 }footer .text1 p {
   font-family: 'Montserrat', sans-serif;
   margin-top: 9px;
@@ -188,6 +210,7 @@ footer .text1 h2 {
   text-decoration: none;
   color: #fff;
   font-size: 7px;
+  padding-left: 3px;
 }
 footer ul{
   padding-left: 7px;
@@ -196,9 +219,3 @@ footer .asd {
   padding-bottom: 0px;
 }
 }
-
-
-
-
-
-
