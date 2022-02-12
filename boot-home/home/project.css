@@ -29,6 +29,9 @@ header nav{
   header nav .ulli a:hover{
     color: green;
   }
+  .nav_group{
+    display: none;
+  }
   /* header .{ */
       /* display: flex;
       justify-content: center;
@@ -59,13 +62,6 @@ header nav{
   .anim span{
       color: #000;
   }
-  .carousel-control-prev{
-      padding-top: 650px;
-  }
-  .carousel-control-next{
-      padding-top: 650px;
-  }
-
   /* --------------------------footer */
   footer{
     padding-top: 98px;
@@ -98,4 +94,101 @@ header nav{
   footer .asd{
     padding-bottom: 98px;
   }
+  /* -------------------media start */
+
+
+
+  @media (max-width:575px) {
+    header nav {
+      padding-top: 10px;
+  }
+  header .asd2 {
+    padding-bottom: 0px;
+  }
+    header nav .logo {
+      padding-left: 6px;
+  }
+  header nav .logo img{
+    width: 31px;
+    height: 32px;
+  }
+  .nav_menu{
+    display: none;
+  }
+  .nav_group{
+    display: block;
+  }
+  .btn-primary {
+    font-size: 10px;
+    width: 100%;
+    height: 100%;
+    color: black;
+    background: white;
+    border: solid green;
+    border-radius: 16px;
+    padding-left: 11px;
+  }
+  .btn-primary:hover{
+    background-color: #007d2f;
+    border: solid #007d2f;
+    box-shadow: #007d2f;
+  }
+  .carousel-indicators{
+    margin: 0;
+  }
+  .carousel-item h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    font-weight: 800;
+    padding-top: 8px;
+    padding-bottom: 5px;
+  }
+  .carousel-item p {
+    font-family: 'Nunito Sans', sans-serif;
+    padding-right: 12px;
+    color: #787878;
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .car_text{
+    display: none;
+  }
+  .carousel-control-next,
+  .carousel-control-prev{
+    height: 37%;
+  }
+  .anim {
+    height: 53px;
+    background: #007d2f;
+}
+footer {
+  padding-top: 11px;
+  background: #000;
+}
+footer .text1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 15px;
+}footer .text1 p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 9px;
+  font-size: 7px;
+  color: #fff;
+}
+.text3 a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 7px;
+  padding-left: 6px;
+}
+footer ul{
+  padding-left: 0px;
+}
+footer .asd {
+  padding-bottom: 0px;
+}
+}
   

@@ -27,6 +27,9 @@ header nav{
   header nav .ulli a:hover{
     color: green;
   }
+  .nav_group{
+    display: none;
+  }
   .head2{
     background-color: #f5f5f5;
     padding-top: 100px;
@@ -124,4 +127,131 @@ font-size: 14px;
 }
 footer .asd{
   padding-bottom: 98px;
+}
+
+/* -----------------------media start */
+
+@media (max-width:575px) {
+header nav {
+    padding-top: 10px;
+}
+header .asd2 {
+  padding-bottom: 1px;
+}
+  header nav .logo {
+    padding-left: 6px;
+}
+header nav .logo img{
+  width: 31px;
+  height: 31px;
+}
+.nav_menu{
+  display: none;
+}
+.nav_group{
+  display: block;
+}
+.btn-primary {
+  font-size: 10px;
+  width: 100%;
+  height: 100%;
+  color: black;
+  background: white;
+  border: solid green;
+  border-radius: 16px;
+  padding-left: 11px;
+}
+.btn-primary:hover{
+  background-color: #007d2f;
+  border: solid #007d2f;
+  box-shadow: #007d2f;
+}
+
+.head2 {
+  background-color: #f5f5f5;
+  padding-top: 32px;
+}
+.head2 .div_text h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  color: #171717;
+}
+.head2 .div_text p {
+  font-family: 'Nunito', sans-serif;
+  font-size: 11px;
+  color: #858585;
+}
+.forms .name .first {
+  width: 146px;
+  margin-right: 19px;
+  border: solid white;
+  box-sizing: border-box;
+  height: 17px;
+  font-size: 11px;
+}
+.forms .titlebox .titl,
+.forms .name .second {
+  width: 146px;
+  margin-right: 19px;
+  border: solid white;
+  box-sizing: border-box;
+  height: 17px;
+  font-size: 11px;
+}
+.forms .comment #comm{
+  width: 146px;
+  height: 70px;
+  /* padding-bottom: 30px; */
+  font-size: 11px;
+}
+button {
+  width: 80px;
+  height: 31px;
+  background-color: #007d2f;
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 7px;
+  border: solid #f5f5f5;
+  margin-bottom: 100px;
+  text-align: center;
+  padding-left: 0px;
+}
+.karta1{
+  width: 98%;
+  height: 200px;
+}
+.karta{
+  margin-bottom: 23px;
+}
+footer {
+  padding-top: 11px;
+  background: #000;
+}
+footer .text1 h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9px;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 15px;
+}footer .text1 p {
+  font-family: 'Montserrat', sans-serif;
+  margin-top: 9px;
+  font-size: 7px;
+  color: #fff;
+}
+.text3 a {
+  font-family: 'Nunito Sans', sans-serif;
+  text-decoration: none;
+  color: #fff;
+  font-size: 7px;
+  padding-left: 3px;
+}
+footer ul{
+  padding-left: 7px;
+}
+footer .asd {
+  padding-bottom: 0px;
+}
+  
 }
